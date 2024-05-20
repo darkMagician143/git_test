@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("images/wallpaperflare.com_wallpaper\ \(1\).jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.container { 
+    width: 500px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    border: 2px solid black;
+    outline: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    margin: 30px;
+
+}
+
+.main-container{
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 30px 45px;
+
+}
+
+.qoute {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-align: center;
+}
+
+.author{
+    text-align: center;
+    margin: 5px 0px;
+    color: lightcoral;
+}
+
+.qoutebtn button{
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+    padding: 5px 3px;
+    align-items: center;
+    margin: 0;
+    cursor: pointer;
+}
+
+.qoutebtn{
+    text-align: center;
+}
+
+.qoutebtn button:active {
+    background-color: lightblue;
+}
